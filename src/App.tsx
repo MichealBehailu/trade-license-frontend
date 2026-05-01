@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Layout/Navbar';
-import Home from './pages/Home';
-import CustomerPortal from './pages/CustomerPortal';
-import ReviewerPortal from './pages/ReviewerPortal';
-import ApproverPortal from './pages/ApproverPortal';
+import Home from '../src/Pages/Home';
+import CustomerPortal from '../src/Pages/CustomerPortal';
+import ReviewerPortal from '../src/Pages/ReviewerPortal';
+import ApproverPortal from '../src/Pages/ApproverPortal';
+// import ApproverPortal from './pages/ApproverPortal';
 
 function App() {
   return (
